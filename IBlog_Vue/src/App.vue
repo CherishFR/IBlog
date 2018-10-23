@@ -21,6 +21,7 @@ export default {
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li,pre,fieldset, lengend, button, input, textarea,th, td { 
   margin: 0;
   padding: 0;
+  list-style-type:none;
 }
 body,button, input, select, textarea { 
   font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
@@ -51,6 +52,7 @@ ul, ol {
 }
 a { 
   text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,'PingFang SC',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,"WenQuanYi Micro Hei",SimSun,sans-serif;
 }
 a:hover { 
   text-decoration: underline; 
