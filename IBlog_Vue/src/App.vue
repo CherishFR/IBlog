@@ -47,8 +47,23 @@ code, kbd, pre, samp, tt {
 small { 
   font-size: 12px; 
 }
-ul, ol { 
-  list-style: none; 
+menu, ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 a { 
   color: #262626;
@@ -170,5 +185,38 @@ html {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+.pb-md-0, .py-md-0 {
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+}
+.mb-md-4, .my-md-4 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+}
+.mb-md-5, .my-md-5 {
+    margin-bottom: 3rem!important;
+    margin-top: 3rem!important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+.mb-lg-4-2 {
+    margin-bottom: 2rem!important;
+}
+.text-md-center {
+    text-align: center!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body, input, button, select, optgroup, option, textarea, pre {
+    font-family: -apple-system,BlinkMacSystemFont,'PingFang SC',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,"WenQuanYi Micro Hei",SimSun,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 </style>
