@@ -7,19 +7,24 @@
 
                 </div>
             </div>
-        </section>  
-        <vwarp></vwarp> 
+        </section>
+        <div class="container">
+            <vmheader></vmheader> 
+            <vmtitle></Vmtitle>
+        </div>  
     </div>
 </template>
 
 <script>
 import Vfeature from "./Vmain/Vfeature"
-import Vwarp from "./Vmain/Vwarp"
+import Vmheader from "./Vmain/Vmheader"
+import Vmtitle from "./Vmain/Vmtitle"
 export default {
     name:"vmain",
     components:{
     Vfeature,
-    Vwarp
+    Vmheader,
+    Vmtitle,
   }
 }
 </script>
@@ -35,5 +40,13 @@ export default {
 .flex-md-wrap {
     -ms-flex-wrap: wrap!important;
     flex-wrap: wrap!important;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 </style>
