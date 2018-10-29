@@ -1,12 +1,19 @@
 <template>
     <div id="Varticles">
-        Varticles
+        <vtitle></vtitle>
+        <vacontent></vacontent>
     </div>
 </template>
 
 <script>
+import Vtitle from "./Vother/Vtitle"
+import Vacontent from "./Vother/Vacontent"
 export default {
-    name:"Varticles"
+    name:"Varticles",
+    components:{
+        Vtitle,
+        Vacontent,
+    }
 }
 </script>
 

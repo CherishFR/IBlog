@@ -141,8 +141,15 @@ html {
 .d-block {
     display: block!important;
 }
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
 .font-14 {
     font-size: 14px!important;
+}
+.font-30 {
+    font-size: 30px!important;
 }
 .text-light {
     color: #f8f9fa!important;
@@ -194,10 +201,19 @@ html {
 .font-18 {
     font-size: 18px!important;
 }
+.font-16 {
+    font-size: 16px!important;
+}
+.font-12 {
+    font-size: 12px!important;
+}
 .font-weight-bold {
     font-weight: 700!important;
 }
 .mt-md-3, .my-md-3 {
+    margin-top: 1rem!important;
+}
+.mt-lg-3, .my-lg-3 {
     margin-top: 1rem!important;
 }
 .mt-2, .my-2 {
