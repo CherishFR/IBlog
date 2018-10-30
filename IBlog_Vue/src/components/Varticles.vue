@@ -1,18 +1,18 @@
 <template>
     <div id="Varticles">
         <vtitle></vtitle>
-        <vacontent></vacontent>
+        <vcontent></vcontent>
     </div>
 </template>
 
 <script>
 import Vtitle from "./Vother/Vtitle"
-import Vacontent from "./Vother/Vacontent"
+import Vcontent from "./Vother/Vcontent"
 export default {
     name:"Varticles",
     components:{
         Vtitle,
-        Vacontent,
+        Vcontent,
     }
 }
 </script>

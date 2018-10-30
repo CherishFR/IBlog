@@ -11,6 +11,7 @@
         <div class="container">
             <vmheader></vmheader> 
             <vmtitle></Vmtitle>
+            <vmtitle></Vmtitle>
         </div>  
     </div>
 </template>

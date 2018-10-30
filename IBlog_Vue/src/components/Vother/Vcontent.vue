@@ -1,12 +1,11 @@
 <template>
-    <div id="Vacontent">
+    <div id="Vcontent">
         <section class="nice-warp nice-warp-single mt-3 mt-md-5 mb-4 mb-md-5">
             <div class="container">
                 <main class="nice-main">
                     <div class="posts-list">
                         <div class="list-inner d-archive row">
-                            <Vacard></Vacard>
-                            <Vacard></Vacard>
+                            <vscard></vscard>
                         </div>
                     </div>
                 </main>
@@ -17,10 +16,14 @@
 
 <script>
 import Vacard from "./Vcard/Vacard"
+import Vlcard from "./Vcard/Vlcard"
+import Vscard from "./Vcard/Vscard"
 export default {
-    name:"Vacontent",
+    name:"Vcontent",
     components:{
         Vacard,
+        Vlcard,
+        Vscard
     }
 }
 </script>
